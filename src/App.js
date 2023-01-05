@@ -3,26 +3,27 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App bg-blue">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-       Connect with your fitness app
-        </p>
-        <a
-          className="bg-white"
-          // href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-      <button className="btn gap-2">
-  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
-  Welcome to tracki
-</button>
-        </a>
-      </header>
+   
+<div class="bg-white dark:bg-gray-800 ">
+    <div class="text-m-10">
+        <h2 class="text-10xl font-extrabold text-black dark:text-white sm:text-4xl">
+            <span class="block text-center">
+               Welcome to tracki
+            
+            </span>
+        </h2>
+        <div class="lg:mt-0 lg:flex-shrink-0">
+            <div class="mt-12 inline-flex rounded-md shadow">
+                <button type="button" class="py-4 px-6  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                    Get started
+                </button>
+            </div>
+        </div>
     </div>
-  );
+</div>
+
+  )
 }
+
 
 export default App;
